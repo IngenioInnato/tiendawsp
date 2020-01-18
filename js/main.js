@@ -14,7 +14,7 @@ var sliderInfo=[
     {product: 'img/chaqueta M2.jpg', title: "Women's Jackets", content:'', price: '1 por $70 / 7ptos'},
     {product: 'img/chaqueta M3.jpg', title: "Women's Jackets", content:'', price: '1 por $70 / 7ptos'},
     {product: 'img/doorhangers.jpg', title: 'Door Hangers', content:'', price: '50 por $35.99 / 4ptos'},
-    {product: 'img/flyer.jpg', title: 'Flyer', content:'', price: '25 por $10 / 1pto'},
+    {product: 'img/flyer.jpg', title: 'Flyers', content:'', price: '25 por $10 / 1pto'},
     {product: 'img/Folder1.jpg', title: 'Folder', content:'', price: '50 por $299.25 / 30ptos'},
     {product: 'img/Folder2.jpg', title: 'Folder', content:'', price: '50 por $299.25 / 30ptos'},
     {product: 'img/gorra1.jpg', title: 'Hats', content:'', price: '1 por $42 / 4ptos'},
