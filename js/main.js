@@ -5,7 +5,7 @@ var sliderInfo=[
     {product: 'img/bolso1.jpg', title: 'Backpacks / Mochilas', content:'', price: '50 por $35.99 / 4ptos'},
     {product: 'img/bolso2.jpg', title: 'Backpacks / Mochilas', content:'', price: '50 por $35.99 / 4ptos'},
     {product: 'img/bolso3.jpg', title: 'Backpacks / Mochilas', content:'', price: '50 por $35.99 / 4ptos'},
-    {product: 'img/car iman.jpg', title: 'Car Magnets', content:'', price: '1 por $12.92 / 1ptos'},
+    {product: 'img/car iman.jpg', title: 'Car Magnets', content:'', price: '1 por $12.92 / 1pto'},
     {product: 'img/chaqueta h.jpg', title: "Men's Jackets", content:'', price: '1 por $70 / 7ptos'},
     {product: 'img/chaqueta h2.jpg', title: "Men's Jackets", content:'', price: '1 por $70 / 7ptos'},
     {product: 'img/chaqueta h3.jpg', title: "Men's Jackets", content:'', price: '1 por $70 / 7ptos'},
@@ -14,7 +14,7 @@ var sliderInfo=[
     {product: 'img/chaqueta M2.jpg', title: "Women's Jackets", content:'', price: '1 por $70 / 7ptos'},
     {product: 'img/chaqueta M3.jpg', title: "Women's Jackets", content:'', price: '1 por $70 / 7ptos'},
     {product: 'img/doorhangers.jpg', title: 'Door Hangers', content:'', price: '50 por $35.99 / 4ptos'},
-    {product: 'img/flyer.jpg', title: 'Flyer', content:'', price: '25 por $10 / 1ptos'},
+    {product: 'img/flyer.jpg', title: 'Flyer', content:'', price: '25 por $10 / 1pto'},
     {product: 'img/Folder1.jpg', title: 'Folder', content:'', price: '50 por $299.25 / 30ptos'},
     {product: 'img/Folder2.jpg', title: 'Folder', content:'', price: '50 por $299.25 / 30ptos'},
     {product: 'img/gorra1.jpg', title: 'Hats', content:'', price: '1 por $42 / 4ptos'},
@@ -26,8 +26,8 @@ var sliderInfo=[
     {product: 'img/poloM1.jpg', title: "Women's Polo Shirts", content:'', price: '1 por $20 / 2ptos'},
     {product: 'img/poloM2.jpg', title: "Women's Polo Shirts", content:'', price: '1 por $20 / 2ptos'},
     {product: 'img/Tarjeta presentacion.jpg', title: 'Business Cards', content:'100 por $15 / 2ptos', price: '100 por $24 premium / 2ptos'},
-    {product: 'img/Taza azul.jpg', title: 'Mugs', content:'', price: '1 por $10.50 / 1ptos'},
-    {product: 'img/Taza-Blanca.jpg', title: 'Mugs', content:'', price: '1 por $10.50 / 1ptos'},
+    {product: 'img/Taza azul.jpg', title: 'Mugs', content:'', price: '1 por $10.50 / 1pto'},
+    {product: 'img/Taza-Blanca.jpg', title: 'Mugs', content:'', price: '1 por $10.50 / 1pto'},
 ];
 var sliderDesktop=`
 <div id="carouselControls" class="carousel slide d-md-block d-none" data-pause data-aos="fade-zoom-in" data-aos-duration="1500">
