@@ -194,9 +194,9 @@ var sliderMovil=`
             <div class="text-center">
                 <img src="${sliderInfo[0].product}" class="rounded-circle h-25" alt="${sliderInfo[0].title}">
             </div>
-            <h2>${sliderInfo[i].title}</h2>
-            <p>${sliderInfo[i].content}</p>
-            <span>${sliderInfo[i].price}</span>
+            <h2>${sliderInfo[0].title}</h2>
+            <p>${sliderInfo[0].content}</p>
+            <span>${sliderInfo[0].price}</span>
         </div>`;for (var i=1; i <= 26; i++){
             sliderMovil +=` 
             <div class="carousel-item">
