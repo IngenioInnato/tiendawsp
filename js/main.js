@@ -1,4 +1,8 @@
-/*Carrousel de productos*/ 
+class Product{
+    constructor(info){
+        
+    }
+}
 var sliderInfo=[
     {product: 'img/Bottle1.jpg', title:'Aluminum Water Bottles', content:'', price:'1 por $17.90 / 2ptos'},
     {product: 'img/Bottle2.jpg', title:'Aluminum Water Bottles',content:'',price:'1 por $17.90 / 2ptos'},
@@ -6,7 +10,6 @@ var sliderInfo=[
     {product: 'img/Bottle4.jpg', title:'Aluminum Water Bottles',content:'',price:'1 por $21.90 / 2ptos'},
     {product: 'img/Bottle5.jpg', title:'Aluminum Water Bottles',content:'',price:'1 por $21.90 / 2ptos'},
     {product: 'img/Bottle6.jpg', title:'Aluminum Water Bottles',content:'',price:'1 por $21.90 / 2ptos'},
-
     {product: 'img/boli1.jpg', title: 'Pen', content:'', price: '25 por $60 / 6ptos'},
     {product: 'img/bolso.jpg', title: 'Backpacks / Mochilas', content:'', price: ' 1 por $15.50 / 2ptos'},
     {product: 'img/bolso1.jpg', title: 'Backpacks / Mochilas', content:'', price: '1 por $47.52 / 5ptos'},
@@ -60,7 +63,7 @@ var sliderDesktop=`
                             <p>${sliderInfo[i].content}</p>
                             <span>${sliderInfo[i].price}</span>
                         </div>`;
-                    }
+                    }   
                     sliderDesktop +=`
                 </div>
             </div>
