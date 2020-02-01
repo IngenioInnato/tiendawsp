@@ -1,5 +1,12 @@
 /*Carrousel de productos*/ 
 var sliderInfo=[
+    {product: 'img/Bottle1.jpg', title:'Aluminum Water Bottles', content:'', price:'1 por $17.90 / 2ptos'},
+    {product: 'img/Bottle2.jpg', title:'Aluminum Water Bottles',content:'',price:'1 por $17.90 / 2ptos'},
+    {product: 'img/Bottle3.jpg', title:'Aluminum Water Bottles',content:'',price:'1 por $17.90 / 2ptos'},
+    {product: 'img/Bottle4.jpg', title:'Aluminum Water Bottles',content:'',price:'1 por $21.90 / 2ptos'},
+    {product: 'img/Bottle5.jpg', title:'Aluminum Water Bottles',content:'',price:'1 por $21.90 / 2ptos'},
+    {product: 'img/Bottle6.jpg', title:'Aluminum Water Bottles',content:'',price:'1 por $21.90 / 2ptos'},
+
     {product: 'img/boli1.jpg', title: 'Pen', content:'', price: '25 por $60 / 6ptos'},
     {product: 'img/bolso.jpg', title: 'Backpacks / Mochilas', content:'', price: ' 1 por $15.50 / 2ptos'},
     {product: 'img/bolso1.jpg', title: 'Backpacks / Mochilas', content:'', price: '1 por $47.52 / 5ptos'},
@@ -181,7 +188,38 @@ var sliderDesktop=`
                 </div>
             </div>
         </div>
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row text-center">`; for(var i=27; i
+                    <=29; i++){sliderDesktop +=` 
+                    <div class="col-md-4">
+                        <div class="text-center">
+                            <img src="${sliderInfo[i].product}" class="rounded-circle h-25" alt="${sliderInfo[i].title}">
+                        </div>
+                        <h2>${sliderInfo[i].title}</h2>
+                        <p>${sliderInfo[i].content}</p>
+                        <span>${sliderInfo[i].price}</span>
+                    </div>`;}sliderDesktop +=`
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row text-center">`; for(var i=30; i
+                    <=32; i++){sliderDesktop +=` 
+                    <div class="col-md-4">
+                        <div class="text-center">
+                            <img src="${sliderInfo[i].product}" class="rounded-circle h-25" alt="${sliderInfo[i].title}">
+                        </div>
+                        <h2>${sliderInfo[i].title}</h2>
+                        <p>${sliderInfo[i].content}</p>
+                        <span>${sliderInfo[i].price}</span>
+                    </div>`;}sliderDesktop +=`
+                </div>
+            </div>
+        </div>
     </div>
+
 <a rel="nofollow noopener noreferrer" class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
 <a rel="nofollow noopener noreferrer" class="carousel-control-next" href="#carouselControls" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
 </div>`;
@@ -197,7 +235,7 @@ var sliderMovil=`
             <h2>${sliderInfo[0].title}</h2>
             <p>${sliderInfo[0].content}</p>
             <span>${sliderInfo[0].price}</span>
-        </div>`;for (var i=1; i <= 26; i++){
+        </div>`;for (var i=1; i <= 32; i++){
             sliderMovil +=` 
             <div class="carousel-item">
             <div class="text-center">
