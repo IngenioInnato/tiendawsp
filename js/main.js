@@ -33,7 +33,7 @@ var sliderInfo=[
   {product: 'img/Taza azul.jpg', title: 'Mugs', content:'', price: '1 por $10.50 / 1pto'},
   {product: 'img/Taza-Blanca.jpg', title: 'Mugs', content:'', price: '1 por $10.50 / 1pto'},
 ];
-
+// if ((array.lenght - (i + 1)) >= 3){ sliderInfo.forEach((val,i) => { val.product,val.title,val.price })
 var sliderDesktop =`
 <div id="carouselControls" class="carousel slide d-lg-block d-none" data-pause data-aos="fade-zoom-in" data-aos-duration="1500">
     <div class="carousel-inner px-lg-5 px-2">`
